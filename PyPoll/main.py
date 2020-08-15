@@ -28,7 +28,7 @@ with open(csvpath) as csvfile:
 
     # Read the header row first (skip this step if there is now header)
     csv_header = next(csvreader)
-    print(f"CSV Header: {csv_header}")
+    #print(f"CSV Header: {csv_header}")
 
     # Read each row of data after the header
     for row in csvreader:
@@ -44,7 +44,7 @@ with open(csvpath) as csvfile:
             candidates.update({row[2] : 1})
         
 #lets see the result
-print(candidates)
+#print(candidates)
 
 #Extract the names
 names = list(candidates.keys())
@@ -77,7 +77,7 @@ print("- - - - - - - - - - - - - - - - - ")
 print(f"Total Votes: {c_votes}")
 print("- - - - - - - - - - - - - - - - - ")
 for i in range(0,4):
-    print(f"{names[i]}: {round(prueba[i],3)} % ({votes[i]})")
+    print(f"{names[i]}: {round(prueba[i],4)} % ({votes[i]})")
 print("- - - - - - - - - - - - - - - - - ")
 print(f"Winner: {winner}")
 
@@ -90,7 +90,7 @@ f.write("- - - - - - - - - - - - - - - - - " + '\n')
 f.write(f"Total Votes: {c_votes}" + '\n')
 f.write("- - - - - - - - - - - - - - - - - " + '\n')
 for i in range(0,4):
-    f.write(f"{names[i]}: {round(prueba[i],3)} % ({votes[i]})" + '\n')
+    f.write(f"{names[i]}: {round(prueba[i] , 4)} % ({votes[i]})" + '\n')
 f.write("- - - - - - - - - - - - - - - - - " + '\n')
 f.write(f"Winner: {winner}" + '\n')
 f.close()
