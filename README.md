@@ -1,28 +1,16 @@
 # Py Me Up, Charlie
 
-## Background
+## Introduction
 
-Well... you've made it!
+Excel is a very common tool in the business world for all kinds of data analysis tasks. It is simple and provide fast results [1,2,3,4]. However, for more powerful analysis it is necessary to manage it with Visual Basic (VBA). According to [1], VBAs are complex to operate, and they make Excel difficult to work with when dealing with multiple operations during data analysis. Of course, the main advantage of excel is the simplicity when compared with Python.
 
-It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll be using the concepts you've learned to complete the **two** Python Challenges, PyBank and PyPoll.
+On the other hand, Python is an open-source programming language, with numerous contributors who volunteer to provide regular updates to the code and improve its functionality [1]. It is possible to use it in Big Data, i.e. it is scalable, it allows data connectivity and has automation capabilities [4]. However, it has a step learning curve.
 
-Both of these challenges encompasses a real-world situation where your newfound Python scripting skills can come in handy. These challenges are far from easy so expect some hard work ahead!
+In this Python Challenge it is presented an analysis of two kinds:
 
-### Before You Begin
+* Financial (PyBank)
 
-* Create a new repository for this project called `python-challenge`. **Do not add this homework to an existing repository**.
-
-* Clone the new repository to your computer.
-
-* Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
-
-* Inside of each folder that you just created, add the following:
-
-  * A new file called `main.py`. This will be the main script to run for each analysis.
-  * A "Resources" folder that contains the CSV files you used. Make sure your script has the correct path to the CSV file.
-  * An "analysis" folder that contains your text file that has the results from your analysis.
-
-* Push the above changes to GitHub or GitLab.
+* Political voting (PyPoll)
 
 ## PyBank
 
